@@ -1,0 +1,14 @@
+.midBannerSec{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.icon-div{
+    display: flex;
+    flex-direction: row;
+}
+.rs-half{
+    margin-right: 0.5rem;
+}
