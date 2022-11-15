@@ -14,9 +14,3 @@ code {
     monospace;
 }
 
-@font-face {
-  font-family: 'Red Rose';
-  src: local('Red Rose'), 
-    url('./fonts/RedRose-VariableFont_wght.ttf')
-    format('truetype');
-}

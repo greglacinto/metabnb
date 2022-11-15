@@ -7,3 +7,11 @@
   background-color: #A02279;
   color: white;
 }
+.flex-container-row{
+  display: flex;
+}
+
+.flex-container-col{
+  display: flex;
+  flex-direction: column;
+}
