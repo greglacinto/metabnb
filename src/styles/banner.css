@@ -3,6 +3,10 @@
     align-items: stretch;
     /* flex-direction: column; */
 }
+#banner-center-div{
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
 #left-div {
     width: 60%;
     display: flex;
@@ -18,5 +22,20 @@
 }
 .banner-text {
     font-size: 3rem;
+    font-family: 'Red Rose';
+    margin-top: 1rem;
+}
+#banner-input-div {
+    margin-top: 1rem;
+}
+#banner-input-div #searchBox {
+    border: 1px solid #A3A3A3;
+    padding: 0.5rem;
 }
 
+#banner-input-div #searchBtn {
+    border: hidden;
+    padding: 0.5rem 3rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
