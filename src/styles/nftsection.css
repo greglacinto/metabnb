@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#left-section{
+    padding: 5rem 1rem 2rem 1rem;
+}
+
+.btn-div input {
+    border-radius: 6px;
+    border: hidden;
+    padding: 0.5rem 1.5rem;
+    color: #A02279;
+}
+#left-section-p{
+    font-size: small;
+    margin-bottom: 2rem;
+    color: #d7caca;
+}
