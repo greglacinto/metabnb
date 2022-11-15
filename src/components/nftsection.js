@@ -4,7 +4,7 @@ import nftImg from '../assets/nftLogo.svg';
 
 function NFTSection(){
     return (
-        <div className="section theme-color-bg">
+        <div className="nft-section theme-color-bg">
                 <div id='left-section'>
                     <div>
                         <h2>

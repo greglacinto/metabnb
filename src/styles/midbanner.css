@@ -1,9 +1,8 @@
 .midBannerSec{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-
-
 
 .icon-div{
     display: flex;

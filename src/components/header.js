@@ -10,7 +10,7 @@ const buttonText = "Connect wallet";
 function Header() {
     return (
         <div className = "w-90 header" >
-            <div className='logo' style={{border : "solid"}}>
+            <div className='logo' >
                 <img src={metaBNBLogo} alt="meta logo"/>
                 {/* <img src={metaBNBLogo2} alt="meta logo"/> */}
             </div>

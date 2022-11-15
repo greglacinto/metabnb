@@ -4,10 +4,7 @@ import bannerImg from '../assets/banner-img.svg';
 
 function Banner(){
     return (
-        <div  
-        style={{border : "solid"}}
-        className="banner-section w-90"
-        >
+        <div className="banner-section w-90">
             <div id='left-div'>
                 <div id='banner-main-text-div'>
                     <p className='banner-text'>Rent a <span className='text-purple'>Place</span> away from</p>
