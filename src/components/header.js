@@ -19,7 +19,7 @@ function Header() {
             <NavBar className='' />
 
             <div className='connect-btn'>
-                <input type="submit" value={buttonText}/>
+                <input type="submit" value={buttonText} className='theme-color-bg'/>
             </div>
 
         </div>
