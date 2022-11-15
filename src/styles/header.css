@@ -1,0 +1,19 @@
+.header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect-btn input {
+    border-radius: 8px;
+    color: white;
+    background-color: #A02279;
+    border: hidden;
+    padding: 0.5rem 1rem;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

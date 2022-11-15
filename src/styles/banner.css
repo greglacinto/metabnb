@@ -1,0 +1,22 @@
+.banner-section {
+    display: flex;
+    align-items: stretch;
+    /* flex-direction: column; */
+}
+#left-div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+#right-div {
+    width: 40%;
+}
+
+.text-purple {
+    color: #A02279;
+}
+.banner-text {
+    font-size: 3rem;
+}
+

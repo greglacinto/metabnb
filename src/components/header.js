@@ -1,9 +1,28 @@
+import '../styles/header.css';
+
+import metaBNBLogo from '../assets/logo.svg';
+import metaBNBLogo2 from '../assets/metabnb.svg';
+
+import NavBar from '../components/navbar';
+
+const buttonText = "Connect wallet";
+
 
 function Header() {
     return (
-        <header style={{border : "solid"}}>
-            <div>Headerhere</div>
-        </header>
+        <div className = "w-90 header" >
+            <div className='logo' style={{border : "solid"}}>
+                <img src={metaBNBLogo} alt="meta logo"/>
+                {/* <img src={metaBNBLogo2} alt="meta logo"/> */}
+            </div>
+
+            <NavBar className='' />
+
+            <div className='connect-btn'>
+                <input type="submit" value={buttonText}/>
+            </div>
+
+        </div>
     );
 }
 

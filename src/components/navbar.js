@@ -1,9 +1,17 @@
+import '../styles/navbar.css';
 
 function NavBar() {
     return (
-        <nav style={{border : "solid"}}>
-            navbar here
-        </nav>
+        <div>
+            <div className='nav' style={{border : "solid red"}}>
+                <ul>
+                    <li>Home</li>
+                    <li>Place to stay</li>
+                    <li>NFTs</li>
+                    <li>community</li>
+                </ul>
+            </div>
+        </div>
     );
 }
 

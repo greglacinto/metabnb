@@ -1,0 +1,12 @@
+ul {
+    list-style: none;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.nav li {
+    border: solid blue;
+    padding: 0 3rem;
+    font-family: Red Rose;
+}
+
