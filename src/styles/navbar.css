@@ -3,11 +3,19 @@ ul {
     display: flex; 
     justify-content: space-between;
 }
-
 .nav li {
-    border: solid blue;
-    padding: 0 3rem;
+    padding: 0rem 3rem;
     font-family: Red Rose, cursive;
+}
 
+.nav {
+    border: solid;
+}
+
+@media screen and (max-width: 1025px) {
+    .nav li {
+        padding: 0 1rem;
+        border: solid;
+    }
 }
 

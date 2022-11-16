@@ -1,7 +1,7 @@
 .nextAdvSection{
     align-items: center;
     margin: auto;
-    width: 90%;
+    width: 100%;
 }
 .nextAdvSection h1{
     color: black;
@@ -31,3 +31,9 @@
     font-style: normal;
     font-size: 0.8rem;
 }
+
+/* @media screen and (max-width: 1025px) {
+    .nextAdvSectionGrid {
+        grid-template-columns: auto auto auto ;
+    }
+} */

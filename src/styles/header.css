@@ -1,7 +1,8 @@
 .header {
     margin-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: auto;
 }
 
 .connect-btn input {
@@ -9,11 +10,9 @@
     color: white;
     border: hidden;
     padding: 0.5rem 1rem;
-
 }
 
-
-img {
-    max-width: 100%;
-    height: auto;
+.logo{
+    border: solid;
 }
+

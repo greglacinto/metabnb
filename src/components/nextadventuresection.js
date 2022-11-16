@@ -21,7 +21,7 @@ function NextAdventureSection() {
                 </h1>
             </div>
 
-            <div className="nextAdvSectionGrid">
+            <div style={{border: 'solid'}} className="nextAdvSectionGrid">
                 <NextAdvDiv divImg={advImg1} />
                 <NextAdvDiv divImg={advImg2} />
                 <NextAdvDiv divImg={advImg3} />
