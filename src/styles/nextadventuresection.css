@@ -32,8 +32,8 @@
     font-size: 0.8rem;
 }
 
-/* @media screen and (max-width: 1025px) {
+@media screen and (max-width: 1280px) {
     .nextAdvSectionGrid {
         grid-template-columns: auto auto auto ;
     }
-} */
+}
